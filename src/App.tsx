@@ -46,12 +46,14 @@ function App() {
       {/* Product Showcase */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <img 
-              src="https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&fit=crop&q=80"
-              alt="Natural supplements"
-              className="rounded-2xl shadow-xl"
-            />
+          <div className="flex items-center justify-center">
+            <div className="w-full max-w-md aspect-square relative overflow-hidden rounded-2xl shadow-xl">
+              <img 
+                src="https://maxbounty.com/resources/getimage.asp?m=13163&o=25003&i=182110.dat"
+                alt="Natural supplements"
+                className="absolute inset-0 w-full h-full object-cover object-center"
+              />
+            </div>
           </div>
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
